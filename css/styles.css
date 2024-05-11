@@ -1,0 +1,69 @@
+/*___________________ Configuraciones generales ___________________*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* _________________________________________________________________ */
+
+/* ? ___________________ Cabecera ___________________ */
+header {
+    text-align: center;
+    background-color: #96836D;
+    color: white;
+    height: 100px;
+}
+
+.header__buttons{
+    margin: 20px 20px;
+}
+
+.header__btn {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.header__btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.header__btn--start {
+background-color: #9FEDAF;
+}
+
+.header__btn--stop{
+background-color: #4E3C6B;
+}
+ 
+.header__btn--clear{
+background-color: #B58CF5;
+}
+/* ?_____________________________________________________________________- */
+
+/* TODO:______________________________ Contenido Principal_______________ */
+
+#gameBoard {
+    display: grid;
+    justify-content: center;
+    background-color: #407A7A;    
+}
+
+.cell {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.cell.live {
+    background-color:black;
+}
+
+.header__btn--next {
+    background-color: #67A42B;
+}
+/* TODO:________________________________________________________ */
+/*  */
+
